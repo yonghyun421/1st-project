@@ -26,14 +26,10 @@ class ProductList extends React.Component {
   }
 
   goToDetail = productId => {
-    //this.props.history.push(`/product-detail/${productId}`);
+    this.props.history.push(`/product-detail/${productId}`);
   };
 
   render() {
-    localStorage.setItem(
-      'token',
-      'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MX0.qywu0fsg1ylVPyh359QAGGFq66TM839qyr-W0_EZT-s'
-    );
     const { isVisible, handleCloseProductList } = this.props;
     return (
       <div

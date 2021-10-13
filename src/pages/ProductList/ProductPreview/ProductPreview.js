@@ -63,14 +63,12 @@ class ProductPreview extends React.Component {
       serving,
     } = this.props;
     return (
-      <div
-        className="productPreviewContainer"
-        onClick={() => this.props.goToDetail(productId)}
-      >
+      <div className="productPreviewContainer">
         <img
           className="productPreviewImage"
           src={this.state.imageSrc}
           alt="food"
+          onClick={() => this.props.goToDetail(productId)}
           onMouseOut={() => this.handleImageMouseOut(mainImage)}
           onMouseOver={() => this.handleImageMouseOver(subImage)}
         />

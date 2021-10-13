@@ -7,6 +7,7 @@ import DetailImageRight from './DetailImageRight/DetailImageRight';
 import DetailImageBottom from './DetailImageBottom/DetailImageBottom';
 import TagBottom from './TagBottom/TagBottom';
 import './ProductDetail.scss';
+import { withRouter } from 'react-router-dom';
 
 class ProductDetail extends React.Component {
   constructor() {
@@ -19,7 +20,7 @@ class ProductDetail extends React.Component {
   componentDidMount() {
     const TOKEN = localStorage.getItem('token');
     fetch(
-      'https://f960-211-106-114-186.ngrok.io/product/menu/category/1/detail',
+      `https://f960-211-106-114-186.ngrok.io/product/menu/category/${this.props.match.params.id}/detail`,
       {
         method: 'GET',
         ...(TOKEN && {
@@ -38,13 +39,7 @@ class ProductDetail extends React.Component {
   }
 
   render() {
-    localStorage.setItem(
-      'token',
-      'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MX0.qywu0fsg1ylVPyh359QAGGFq66TM839qyr-W0_EZT-s'
-    );
-
     const { result, detail } = this.state.productData;
-
     return (
       <>
         <div className="productDetail">
@@ -61,4 +56,4 @@ class ProductDetail extends React.Component {
   }
 }
 
-export default ProductDetail;
+export default withRouter(ProductDetail);

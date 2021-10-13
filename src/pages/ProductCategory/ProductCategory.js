@@ -48,6 +48,7 @@ class ProductCategory extends React.Component {
           </ul>
         </div>
         <ProductList
+          history={this.props.history}
           listId={this.state.listId}
           isVisible={this.state.isVisible}
           handleCloseProductList={this.handleCloseProductList}
