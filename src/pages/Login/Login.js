@@ -4,15 +4,15 @@ import './Login.scss';
 class Login extends React.Component {
   constructor() {
     super();
-    this.state = { id: '', pw: '' };
+    this.state = { account: '', password: '' };
   }
 
   clickLogin = () => {
     fetch('http://10.58.2.115:8000/user/login', {
       method: 'POST',
       body: JSON.stringify({
-        account: this.state.id,
-        password: this.state.pw,
+        account: this.state.account,
+        password: this.state.password,
       }),
     })
       .then(response => response.json())
@@ -36,7 +36,7 @@ class Login extends React.Component {
   };
 
   render() {
-    const isvalid = this.state.id.includes('@') && this.state.pw.length >= 8;
+    const isvalid = this.state.account && this.state.password.length >= 8;
 
     return (
       <div className="outBox">
