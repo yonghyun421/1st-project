@@ -1,7 +1,7 @@
 import React from 'react';
 import ProductCategoryList from './ProductCategoryList/ProductCategoryList';
 import ProductList from '../ProductList/ProductList';
-import CATEGORY_DATA from './productCategoryData';
+import CATEGORY_DATA from './ProductCategoryData';
 import './ProductCategory.scss';
 
 // Header와 연결시 헤더에서 누른 카테고리값 props로 받아올 부분

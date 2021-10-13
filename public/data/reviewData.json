@@ -1,0 +1,58 @@
+{
+  "result": [
+    {
+      "review_id": 1,
+      "user": "wecode",
+      "userDate": "2021/10/7",
+      "review": "오늘 점심 뭐먹지"
+    },
+    {
+      "review_id": 2,
+      "user": "dydgus0421",
+      "userDate": "2021/10/7",
+      "review": "인증인가 인가인가"
+    },
+    {
+      "review_id": 3,
+      "user": "Hy_un",
+      "userDate": "2021/10/7",
+      "review": "댓글을 달아주세요"
+    },
+    {
+      "review_id": 4,
+      "user": "wecode",
+      "userDate": "2021/10/7",
+      "review": "오늘 점심 뭐먹지"
+    },
+    {
+      "review_id": 5,
+      "user": "dydgus0421",
+      "userDate": "2021/10/7",
+      "review": "인증인가 인가인가"
+    },
+    {
+      "review_id": 6,
+      "user": "Hy_un",
+      "userDate": "2021/10/7",
+      "review": "댓글을 달아주세요"
+    },
+    {
+      "review_id": 7,
+      "user": "wecode",
+      "userDate": "2021/10/7",
+      "review": "오늘 점심 뭐먹지"
+    },
+    {
+      "review_id": 8,
+      "user": "dydgus0421",
+      "userDate": "2021/10/7",
+      "review": "인증인가 인가인가"
+    },
+    {
+      "review_id": 9,
+      "user": "Hy_un",
+      "userDate": "2021/10/7",
+      "review": "댓글을 달아주세요"
+    }
+  ]
+}
