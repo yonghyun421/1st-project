@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+import Review2 from './pages/Review/Review2';
 import Nav from './components/Nav/Nav';
 import ProductCategory from './pages/ProductCategory/ProductCategory';
 import Main from './pages/Main/Main';
@@ -19,6 +20,7 @@ class Routes extends React.Component {
       <Router>
         <Nav />
         <Switch>
+          <Route exact path="/review" component={Review2} />
           <Route exact path="/product-category" component={ProductCategory} />
           <Route exact path="/" component={Main} />
           <Route exact path="/login" component={Login} />

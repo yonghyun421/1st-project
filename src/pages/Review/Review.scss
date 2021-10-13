@@ -1,42 +1,62 @@
 .review {
-  width: 960px;
+  width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: 3px solid black;
+
   .reviewTop {
+    width: 100%;
+
     .reviewTitle {
       font-size: 30px;
+
       span {
         font-size: 15px;
       }
     }
+
     .textArea {
       display: flex;
       width: 100%;
-      border: 2px solid green;
+      padding-bottom: 30px;
+
       .textInputBox {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 400px;
+        height: 90px;
+        width: 100%;
         margin-right: 15px;
         border: 2px solid black;
+
         .textInput {
-          width: 390px;
+          width: 100%;
           height: 70px;
           margin-right: 15px;
+          padding: 10px;
           border: transparent;
           resize: none;
         }
         .textInputLimit {
           text-align: right;
+          padding: 10px;
           font-size: 10px;
         }
       }
+
       .textInputBtn {
         width: 90px;
         height: 90px;
-        color: gray;
+        color: white;
         background-color: black;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.7;
+        }
       }
     }
 
@@ -44,21 +64,46 @@
       li {
         display: flex;
         height: 70px;
-        width: 500px;
+        width: 100%;
         border-bottom: 1px solid black;
+
         .reviewContent {
           display: flex;
           align-items: center;
-          width: 400px;
-          font-weight: 300;
+          width: 80%;
+          font-weight: 400;
         }
+
+        .deleteReview {
+          width: 10%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .deleteBtn {
+            width: 50%;
+            height: 50%;
+            cursor: pointer;
+
+            &:hover {
+              background-color: black;
+              border-radius: 5px;
+              color: white;
+            }
+          }
+        }
+
         .reviewInfo {
-          width: 90px;
+          width: 10%;
           margin: auto;
+
           #userId {
+            padding-bottom: 5px;
           }
           #userDate {
-            font-weight: 300;
+            padding-top: 5px;
+            font-weight: 200;
+            color: gray;
           }
         }
       }
