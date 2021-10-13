@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "image": "images/ProductPreview/pet1.png",
+    "category": "디저트",
+    "product_name": "바닐라 마카롱",
+    "price": "3900.000",
+    "quantity": 3
+  },
+  {
+    "id": 2,
+    "image": "images/ProductPreview/pet2.png",
+    "category": "국/찌개/육수",
+    "product_name": "반계탕",
+    "price": "5980.000",
+    "quantity": 2
+  },
+  {
+    "id": 3,
+    "image": "images/ProductPreview/pet3.png",
+    "category": "국/찌개/육수",
+    "product_name": "진한 우보탕",
+    "price": "5580.000",
+    "quantity": 5
+  },
+  {
+    "id": 4,
+    "image": "images/ProductPreview/pet4.png",
+    "category": "베이커리",
+    "product_name": "우유 식빵",
+    "price": "4000.000",
+    "quantity": 8
+  }
+]

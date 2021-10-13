@@ -1,0 +1,31 @@
+.fieldset {
+  width: 100%;
+  margin-top: 40px;
+  background: #f8f8f8;
+  font-size: 20px;
+  animation: nutritionTableFadeIn 2s ease-in-out;
+  @keyframes nutritionTableFadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .nutritionTableHead {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  .nutritionTableinfo {
+    padding: 20px;
+
+    ul {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.productImage {
+  max-width: 960px;
+
+  img {
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+    animation: productImageFadeIn 0.3s;
+    @keyframes productImageFadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.best {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+
+  .bestTitle {
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // background-color: pink;
+
+    img {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      margin-right: 50px;
+      z-index: -1;
+    }
+
+    .topTitle {
+      padding-right: 80px;
+      font-family: mecook;
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      line-height: 150%;
+      color: #21685a;
+
+      #best::after {
+        content: '';
+        display: block;
+        width: 10px;
+        border-bottom: 2px solid #21685a;
+        padding-bottom: 10px;
+      }
+    }
+
+    .botTitle {
+      padding-top: 10px;
+      padding-right: 10px;
+      font-family: mecook;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 150%;
+      letter-spacing: 2px;
+      color: gray;
+    }
+  }
+
+  .bestList {
+    width: 65%;
+    padding-top: 50px;
+
+    #viewBest {
+      padding-bottom: 10px;
+      padding-right: 10%;
+      text-align: right;
+      font-family: mecook;
+      font-size: 20px;
+      letter-spacing: 3px;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+
+    .listItems {
+      width: 100%;
+      height: 380px;
+      white-space: nowrap;
+      overflow-x: auto;
+
+      .food {
+        display: inline-block;
+        width: 280px;
+        height: 370px;
+        padding: 0 16px 0 16px;
+      }
+    }
+  }
+}

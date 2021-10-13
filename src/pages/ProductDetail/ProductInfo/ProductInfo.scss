@@ -1,0 +1,36 @@
+.productInfoBox {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: -150px;
+
+  h1 {
+    max-width: 480px;
+    font-size: 56px;
+    color: #1f695b;
+    word-wrap: break-word;
+    animation: fadeIn 4s;
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    &:before {
+      display: block;
+      position: absolute;
+      width: 500px;
+      top: 30px;
+      right: 0;
+      margin-right: 975px;
+      content: '';
+      border: 1px solid black;
+    }
+  }
+}

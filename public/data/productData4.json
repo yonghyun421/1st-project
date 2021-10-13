@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "images/ProductPreview/pet1.png",
+    "type": "국/찌개/육수",
+    "name": "진한 우보탕",
+    "cookingTime": "5분",
+    "availPeople": "1~2인분",
+    "like": 134
+  },
+  {
+    "id": 2,
+    "image": "images/ProductPreview/pet2.png",
+    "type": "국/찌개/육수",
+    "name": "진한 얼큰 육개장",
+    "cookingTime": "5분",
+    "availPeople": "1~2인분",
+    "like": 158
+  },
+  {
+    "id": 3,
+    "image": "images/ProductPreview/pet3.png",
+    "type": "국/찌개/육수",
+    "name": "전복반계탕",
+    "cookingTime": "5분",
+    "availPeople": "1~2인분",
+    "like": 103
+  },
+  {
+    "id": 4,
+    "image": "images/ProductPreview/pet4.png",
+    "type": "국/찌개/육수",
+    "name": "녹두삼계탕",
+    "cookingTime": "5분",
+    "availPeople": "1~2인분",
+    "like": 87
+  },
+  {
+    "id": 5,
+    "image": "images/ProductPreview/pet5.png",
+    "type": "국/찌개/육수",
+    "name": "진한 추어탕",
+    "cookingTime": "5분",
+    "availPeople": "1~2인분",
+    "like": 72
+  },
+  {
+    "id": 6,
+    "image": "images/ProductPreview/pet6.png",
+    "type": "국/찌개/육수",
+    "name": "시골 장터국",
+    "cookingTime": "5분",
+    "availPeople": "1~2인분",
+    "like": 72
+  }
+]

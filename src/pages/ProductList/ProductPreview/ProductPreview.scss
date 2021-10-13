@@ -1,0 +1,43 @@
+@import '../../../styles/variable.scss';
+
+.productPreviewContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  cursor: pointer;
+
+  .productPreviewImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .productType {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 40px;
+  }
+
+  .productName {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .productInfo {
+    display: flex;
+    margin-top: 15px;
+
+    i {
+      margin-right: 2px;
+    }
+
+    span {
+      margin-right: 14px;
+    }
+
+    .btnLike {
+      color: $theme-color;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.tagBottom {
+  position: relative;
+  width: 100%;
+  min-height: 120px;
+  margin-top: 59px;
+  margin-bottom: 100px;
+  background: #f8f8f8;
+
+  .recommandTag {
+    float: left;
+    padding: 43px 0 0 55px;
+
+    h1 {
+      font-size: 25px;
+      &::before {
+        display: block;
+        position: absolute;
+        top: -33px;
+        left: 19px;
+        content: '#';
+        font-size: 165px;
+        opacity: 0.1;
+      }
+    }
+  }
+
+  ul {
+    float: right;
+    width: 466px;
+    padding: 30px;
+
+    li {
+      display: inline-block;
+      font-size: 18px;
+      margin: 4px 40px 4px 0;
+
+      a {
+        text-decoration: none;
+        color: #206a5b;
+      }
+    }
+  }
+}

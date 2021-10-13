@@ -1,0 +1,12 @@
+.btn {
+  display: block;
+  animation: buttonFadeIn 2s;
+  @keyframes buttonFadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}

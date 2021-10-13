@@ -1,0 +1,17 @@
+.myInfoBoxContainer {
+  background-color: white;
+  width: 500px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: right 0.5s ease-in-out;
+  padding: 20px 30px;
+}
+
+.showBox {
+  right: 0;
+}
+
+.hideBox {
+  right: -500px;
+}

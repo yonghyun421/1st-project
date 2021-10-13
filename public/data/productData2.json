@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "images/ProductPreview/pet7.png",
+    "type": "떡볶이/순대/만두",
+    "name": "취영루 촉촉한 물만두",
+    "cookingTime": "3분",
+    "availPeople": "2인분",
+    "like": 77
+  },
+  {
+    "id": 2,
+    "image": "images/ProductPreview/pet6.png",
+    "type": "고기",
+    "name": "초마 탕수육",
+    "cookingTime": "3분",
+    "availPeople": "2인분",
+    "like": 77
+  },
+  {
+    "id": 3,
+    "image": "images/ProductPreview/pet5.png",
+    "type": "면/파스타/피자",
+    "name": "피콕반점 짜장면",
+    "cookingTime": "6분",
+    "availPeople": "2인분",
+    "like": 83
+  },
+  {
+    "id": 4,
+    "image": "images/ProductPreview/pet4.png",
+    "type": "면/파스타/피자",
+    "name": "피콕반점 짬봉",
+    "cookingTime": "6분",
+    "availPeople": "1~2인분",
+    "like": 90
+  },
+  {
+    "id": 5,
+    "image": "images/ProductPreview/pet3.png",
+    "type": "면/파스타/피자",
+    "name": "초마 짬뽕",
+    "cookingTime": "8분",
+    "availPeople": "2인분",
+    "like": 180
+  },
+  {
+    "id": 6,
+    "image": "images/ProductPreview/pet2.png",
+    "type": "고기",
+    "name": "피콕반점 유산슬",
+    "cookingTime": "6분",
+    "availPeople": "2인분",
+    "like": 59
+  }
+]

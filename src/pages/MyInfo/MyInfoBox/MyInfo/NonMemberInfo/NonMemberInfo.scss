@@ -1,0 +1,20 @@
+@import '../../../../../styles/variable.scss';
+
+.nonMemberContainer {
+  .myInfoTitle {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 40px;
+  }
+
+  .nonMemberContent {
+    margin-top: 30px;
+
+    h1 {
+      span {
+        color: $theme-color;
+        font-weight: 600;
+      }
+    }
+  }
+}

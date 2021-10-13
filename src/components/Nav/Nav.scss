@@ -1,0 +1,147 @@
+@font-face {
+  src: url('../../styles/fonts/DINCond-Medium\ Regular.otf');
+  font-family: mecook;
+}
+
+.original {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 72px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: transparent;
+  font-family: mecook;
+  font-weight: 700;
+
+  @media only screen and (min-width: 850px) {
+    .threeLine {
+      display: none;
+    }
+
+    .menuBtn {
+      margin-right: 30px;
+      font-weight: 800;
+      font-size: 22px;
+      letter-spacing: 3px;
+      text-decoration: none;
+      display: inline-block;
+      color: white;
+
+      &:hover {
+        color: white;
+      }
+
+      &::after {
+        display: block;
+        content: '';
+        border-bottom: solid 2px white;
+        padding-bottom: 5px;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+      }
+
+      &:hover::after {
+        transform: scaleX(1);
+      }
+    }
+
+    .logo {
+      font-size: 25px;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 849px) {
+    .threeLine {
+      color: white;
+      font-size: 25px;
+
+      i {
+        padding-right: 10px;
+        color: white;
+      }
+    }
+
+    .logo,
+    .menu a {
+      display: none;
+    }
+  }
+  .login {
+    display: flex;
+    align-items: center;
+
+    button {
+      font-family: mecook;
+      padding: 10px 25px;
+      border-color: white;
+      border-radius: 20px;
+      border-style: solid;
+      color: white;
+      font-size: 15px;
+      font-weight: 800;
+      background-color: transparent;
+      cursor: pointer;
+    }
+
+    a {
+      margin: 0 30px 0 20px;
+      font-size: 28px;
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+.change {
+  background-color: white;
+  opacity: 0.7;
+
+  @media only screen and (min-width: 850px) {
+    .menuBtn {
+      color: black;
+
+      &:hover {
+        color: #168c76;
+      }
+
+      &::after {
+        border-bottom: solid 2px #168c76;
+      }
+    }
+
+    .logo {
+      a {
+        color: black;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 849px) {
+    .threeLine {
+      font-size: 20px;
+      color: black;
+
+      i {
+        color: black;
+      }
+    }
+  }
+
+  .login {
+    button {
+      border-color: black;
+      color: black;
+    }
+
+    a {
+      color: black;
+    }
+  }
+}
